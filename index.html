@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="./index.js" defer></script>
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="text-container">
+      <h1>Learn to code by watching others</h1>
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. 
+      </p>
+
+    </div>
+
+    <div class="form-container">
+
+      <div class="form-header">
+        <p><b>Try it free 7 days</b> then $20/mo. thereafter</p>
+      </div>
+      <div class="form-body">
+        <div class="form-input">
+          <input id="firstName" class="" type="text">
+          <span id="firstName-icon" class=""></span>
+        </div>
+        <p id="msg-firstName" class="error-msg off">First Name can not be empty</p>
+        <div class="form-input">
+          <input id="lastName" class="" type="text">
+          <span id="lastName-icon" class=""></span>
+        </div>
+        <p id="msg-lastName" class="error-msg off">Last Name can not be empty</p>
+        <div class="form-input">
+          <input id="email" class="" type="text">
+          <span id="email-icon" class=""></span>
+        </div>
+        <p id="msg-email" class="error-msg off">Email Address can not be empty</p>
+        <div class="form-input">
+          <input id="password" class="" type="text">
+          <span id="password-icon" class=""></span>
+        </div>
+        <p id="msg-password" class="error-msg off">Password can not be empty</p>
+        <button class="submit">
+          <b>CLAIM YOUR FREE TRIAL</b>
+        </button> 
+        <div class="form-footer-text">
+        <p>
+          By clicking the button, you are agreeing to our <span>Terms and Services</span>
+        </p>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+</body>
+</html>
+
+<!-- 
+View the optimal layout for the site depending on their device's screen size
+See hover states for all interactive elements on the page
+Receive an error message when the form is submitted if:
+Any input field is empty. The message for this error should say "[Field Name] cannot be empty"
+The email address is not formatted correctly (i.e. a correct email address should have this structure: name@host.tld).
+The message for this error should say "Looks like this is not an email" -->
